@@ -20,6 +20,7 @@ public class Quiz {
         String st;
 
         int s = 0;
+        //TODO: togli il path assoluto, carica i txt su git e usa il path relativo irsh
         switch (who) {
             case 0:
                 pathname = "C:\\Users\\Giacomo\\Desktop\\Magistra\\AGENTI INTELLIGENTI\\backup progetto Jade\\mas-quiz-master\\questions\\questions-answers.txt";
