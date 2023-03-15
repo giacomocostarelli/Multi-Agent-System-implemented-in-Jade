@@ -22,15 +22,15 @@ public class Quiz {
         int s = 0;
         switch (who) {
             case 0:
-                pathname = "C:\\Users\\Giacomo\\Desktop\\Magistra\\AGENTI INTELLIGENTI\\backup progetto Jade\\mas-quiz-master\\questions\\questions-answers.txt";
+                pathname = "Quiz/questions/questions-answers.txt";
                 s = 1;
                 break;
             case 1:
-                pathname = "C:\\Users\\Giacomo\\Desktop\\Magistra\\AGENTI INTELLIGENTI\\backup progetto Jade\\mas-quiz-master\\questions\\contestant-one-kb.txt";
+                pathname = "Quiz/questions/contestant-one-kb.txt";
                 s = 2;
                 break;
             case 2:
-                pathname = "C:\\Users\\Giacomo\\Desktop\\Magistra\\AGENTI INTELLIGENTI\\backup progetto Jade\\mas-quiz-master\\questions\\contestant-two-kb.txt";
+                pathname = "Quiz/questions/contestant-two-kb.txt";
                 s = 3;
                 break;
         }
